@@ -14,7 +14,7 @@ export const Header = ({
         <h1>Planificador de Gastos</h1>
           {isValidPresupuesto ? (
             <ControlPresupuesto 
-            //   gastos={gastos}
+              gastos={gastos}
             //   setGastos={setGastos}
                presupuesto={presupuesto}
             //   setPresupuesto={setPresupuesto}
