@@ -15,10 +15,10 @@ export const Header = ({
           {isValidPresupuesto ? (
             <ControlPresupuesto 
               gastos={gastos}
-            //   setGastos={setGastos}
-               presupuesto={presupuesto}
-            //   setPresupuesto={setPresupuesto}
-            //   setIsValidPresupuesto={setIsValidPresupuesto}
+              setGastos={setGastos}
+              presupuesto={presupuesto}
+              setPresupuesto={setPresupuesto}
+              setIsValidPresupuesto={setIsValidPresupuesto}
             />
             ) : (
               <NuevoPresupuesto 
